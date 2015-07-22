@@ -4,15 +4,41 @@ $color--accent: #E91E63;
  border: 1px solid #ddd;
  margin: 1rem;
 }
+body{
+  background: #CCFFFF;
+  text-align: left;
+  font-family: 'Dosis', sans-serif;
+}
+
+a:link {
+    color: #333;
+}
+
+/* visited link */
+a:visited {
+    color: #;
+}
+
+/* mouse over link */
+a:hover {
+    color: #;
+}
+
+/* selected link */
+a:active {
+    color: #;
+}
+
 
 .card-meta {
-  color: #666;
+  color: #333;
   font-size: .75rem;
   text-transform: uppercase;
 }
 
 .card-header {
   color: #fff;
+   padding: 2 rem 0;
   background: #263238;
     &:target {
       background: $color--accent;
@@ -20,7 +46,7 @@ $color--accent: #E91E63;
 }
 
 .card-content {
-  padding: 1rem 0;
+  padding: 1 rem 0;
   + .card-content {
     border-top: 1px solid #ddd;
   }
@@ -28,7 +54,7 @@ $color--accent: #E91E63;
 
 #wrapper{
   margin: 0px 20px;
-  text-align:center;
+  text-align:left;
   padding: 0px 20px;
 }
 h2 {
