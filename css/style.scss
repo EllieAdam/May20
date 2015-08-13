@@ -8,6 +8,7 @@ body{
   background: #CCFFFF;
   text-align: left;
   font-family: 'Dosis', sans-serif;
+
 }
 
 a:link {
@@ -34,6 +35,9 @@ a:active {
   color: #333;
   font-size: .75rem;
   text-transform: uppercase;
+}
+p{
+  font-size: 1.3rem;
 }
 
 .card-header {

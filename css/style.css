@@ -55,7 +55,7 @@ a:active {
 #wrapper{
   margin: 0px 20px;
   text-align:left;
-  padding: 0px 20px;
+  padding: 0px 60px;
 }
 h2 {
   font-weight: 300;
@@ -64,6 +64,8 @@ h2 {
 
 h3 {
   font-size: 1.6rem;
+  padding: 0px 10px;
+
 }
 
 h4 {
@@ -71,4 +73,8 @@ h4 {
 }
 a{
   text-decoration:none;
+}
+p,
+li{
+  font-size: 1.3rem;
 }
